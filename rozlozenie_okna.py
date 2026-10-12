@@ -4,7 +4,7 @@ from tkinter import ttk
 
 root = tk.Tk()
 root.title("Projekt - rozloženie okna")
-root.geometry("520x420")
+root.geometry("520x620")
 root.resizable(False,False)
 
 #PACK - prvky sa radia nad seba alebo vedla seba
@@ -29,5 +29,16 @@ ttk.Label(grid_frame, text="Trieda:").grid(row=2,column=0,sticky="w",padx= 5,pad
 ttk.Entry(grid_frame).grid(row=2,column=1,padx= 5,pady=5 )
 
 ttk.Button(grid_frame,text="Uložiť").grid(row=3,column=0,columnspan=2,sticky="we",pady=5)
+#PLACE - presná pozícia podľa súradníc
+place_frame = tk.LabelFrame(root,text="3 - place presná poloha",padx=10,pady=10)
+place_frame.pack(fill="both",expand=True,padx=10,pady=10)
+#absolútna pozícia
+tk.Label(place_frame,text="Štítok na presnej pozícii",bg="red", fg="white").place(x=20,y=20)
+tk.Button(place_frame,text="Tlačidlo x=250, y = 60").place(x=250,y=60)
+
+#Relatívne pozíciovanie = 50 % šírky a 70 % výšky
+(tk.Button(place_frame, text="Relatívne pozíciovanie = 50 % šírky a 70 % výšky").
+ place(relx=0.5,rely=0.7, anchor="center"))
+
 #Zobrazenie okna
 root.mainloop()

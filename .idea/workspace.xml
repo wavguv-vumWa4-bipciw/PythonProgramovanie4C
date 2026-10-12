@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c171f178-6f6e-4241-b158-7caa24bd80ea" name="Changes" comment="Úvod do TKINTER">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProgramovanie4C.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c171f178-6f6e-4241-b158-7caa24bd80ea" name="Changes" comment="PACK a GRID">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rozlozenie_okna.py" beforeDir="false" afterPath="$PROJECT_DIR$/rozlozenie_okna.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +20,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wavguv-vumWa4-bipciw&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wavguv-vumWa4-bipciw/PythonProgramovanie4C.git&quot;,
+    &quot;accountId&quot;: &quot;5719bd2a-005d-42bc-944e-7312402cbf8b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3JxIjayIymgUmavNwTDmf3nHAnL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,12 +44,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.copilot_formular.executor": "Run",
+    "Python.rozlozenie_okna.executor": "Run",
     "Python.tkinter_uvod.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,7 +71,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1790596428289</updated>
-      <workItem from="1790596429346" duration="78000" />
+      <workItem from="1790596429346" duration="694000" />
+      <workItem from="1790764986691" duration="20000" />
+      <workItem from="1791802498032" duration="2549000" />
     </task>
     <task id="LOCAL-00001" summary="Úvod do TKINTER">
       <option name="closed" value="true" />
@@ -68,7 +83,31 @@
       <option name="project" value="LOCAL" />
       <updated>1790596496077</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Úvod do TKINTER">
+      <option name="closed" value="true" />
+      <created>1790596605954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790596605954</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ukážka cez Copilot">
+      <option name="closed" value="true" />
+      <created>1790597112053</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790597112053</updated>
+    </task>
+    <task id="LOCAL-00004" summary="PACK a GRID">
+      <option name="closed" value="true" />
+      <created>1791804032557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1791804032558</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,9 +115,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Úvod do TKINTER" />
-    <option name="LAST_COMMIT_MESSAGE" value="Úvod do TKINTER" />
+    <MESSAGE value="Ukážka cez Copilot" />
+    <MESSAGE value="PACK a GRID" />
+    <option name="LAST_COMMIT_MESSAGE" value="PACK a GRID" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProgramovanie4C$tkinter_uvod.coverage" NAME="tkinter_uvod Coverage Results" MODIFIED="1790596455786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProgramovanie4C$rozlozenie_okna.coverage" NAME="rozlozenie_okna Coverage Results" MODIFIED="1791804985958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProgramovanie4C$copilot_formular.coverage" NAME="copilot_formular Coverage Results" MODIFIED="1790597081961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
